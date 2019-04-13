@@ -9,12 +9,12 @@ class listview_builder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-        itemCount: songData.songs.length,
+        itemCount: 1,
         itemBuilder: (BuildContext context, int index) {
           return ListTile(
             leading: CircleAvatar(
               backgroundColor: Colors.blueAccent,
-              child: Icon(Icons.play_arrow),
+              child: Icon(Icons.play_arrow,color: Colors.white,),
             ),
           );
         });

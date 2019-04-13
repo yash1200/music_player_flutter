@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:music_app/HomePage.dart';
 import 'package:musicfinder/musicfinder.dart';
 
 void main() => runApp(new MyApp());
